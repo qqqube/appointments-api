@@ -1,4 +1,4 @@
-# appointment-app
+# appointment-api
 
 #### Documentation
 ---
