@@ -1,0 +1,21 @@
+<h1 class="display-4"> Appointments </h1>
+<table class="table table-striped">
+  <thead>
+     <tr>
+        <th>Host</th>
+        <th>Room Number</th>
+        <th>Time</th>
+        <th>Duration</th>
+     </tr>
+  </thead>
+  <tbody>
+      <% appointments.forEach(function(appointment) { %>
+          <tr>
+                <td><%=appointment.host %> </td>
+                <td><%=appointment.room_num%> </td>
+                <td><%=appointment.time %> </td>
+                <td><%=appointment.duration %> </td>
+          </tr>
+    <%  }) %>
+  </tbody>
+</table
